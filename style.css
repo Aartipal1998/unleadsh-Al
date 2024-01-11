@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.navbar span{
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 30px;
+}
+.navbar ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(47, 235, 47);
+    border-radius: 20px;
+    border: none;
+}
+.navbar ul li{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.con1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.box{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    flex-direction: row;
+    color: white;
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    width: 390px;
+}
+.text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.text button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(18, 215, 18);
+    
+}
+.text h6{
+    font-size: 16px;
+}
+.text h1{
+    font-size: 40px;
+
+}
+.text p{
+    font-size: 16px;
+    color: gray;
+}
+.text span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+.box1 h1{
+    font-size: 20px;
+}
+.text p{
+    font-size: 14px;
+}
+.con2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 80px;
+    padding-block: 49px;
+
+}
+.con2 li{
+    list-style: none;
+    
+}
+.con2 h2{
+    font-size: 40px;
+
+
+}
+.con2 ul{
+    width: 90%;
+    font-size: 14px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+@media(max-width:768px){
+    .con1{
+        width: 900px;
+        
+        flex-direction: column-reverse;
+    }
+    .img{
+        width: 300px;
+    }
+
+
+
+
+}
